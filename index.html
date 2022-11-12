@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPBD BÌNH CÁ MẬP</title>
+</head>
+<body>
+<style>
+    #b{
+        
+        text-align: center;
+        font-size: 60px;
+        background-color: papayawhip;
+    color: lightcoral;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #h1{
+        position: relative;
+        top: -190px;
+        width: 500px;
+        right: -250px;
+        cursor: pointer;
+    }
+    #text{
+          position: relative;
+        top: -100px;
+    }
+    #h2{
+        position: relative;
+        top: -190px;
+        width: 180px;
+        right: -250px;
+    }
+    #h3{
+        position: relative;
+        top: -190px;
+        width: 180px;
+        right: -250px;
+    }
+</style>  
+<div id="b">
+    <marquee behavior="alternate" direction="right" id="text"><h1>HPBD ÁNH BÌNH</h1></marquee>  
+</div>
+<div>
+    <img src="./h2.gif" id="h2" alt="" class="h" >
+    <img src="./h1.jpg" id="h1" alt="" class="h"title="click vào đây :3333"value="PLAY" onclick="play()">>
+    <img src="./h3.gif" id="h3" alt="" class="h">
+</div>
+<script>
+    function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+</script>
+<audio id="audio" src="./happy.mp3"></audio>
+</body>
+</html>
